@@ -1,6 +1,6 @@
 // 2 son berilgan. Ularning yig’indisini toping.
-let num1 = prompt("Birinchi sonni kiriting:");
-let num2 = prompt("Ikkinchi sonni kiriting:");
+let num1 = +prompt("Birinchi sonni kiriting:");
+let num2 = +prompt("Ikkinchi sonni kiriting:");
 
 console.log(num1 + num2);
 
@@ -107,7 +107,7 @@ let res5 = x3 + y3;
 console.log(res5);
 
 // Berilgan son musbat yoki manfiy ekanligini aniqlang va natijani konsolga chiqaring.
-let son = prompt("Sonni kiriting: ");
+let son = +prompt("Sonni kiriting: ");
 if (son > 0) {
     console.log("Musbat son");  
 } else{
@@ -115,7 +115,7 @@ if (son > 0) {
 }
 
 // Berilgan son juft yoki toq ekanligini aniqlab natijani chiqaring.
-let son2 = promt("Sonni kiriting: ");
+let son2 = +promt("Sonni kiriting: ");
 if (son%2==0) {
     console.log("Juft son");
 }else{
@@ -123,8 +123,8 @@ if (son%2==0) {
 }
 
 // Ikki son berilgan. Qaysi biri kattaligini aniqlang va konsolga chiqaring.
-let son1 = prompt("Birinchi sonni kiriting: ");
-let son3 = prompt("Ikkinchi sonni kiriting: ");
+let son1 = +prompt("Birinchi sonni kiriting: ");
+let son3 = +prompt("Ikkinchi sonni kiriting: ");
 if (son1>son3) {
     console.log("1-son katta");
 } else{
@@ -132,7 +132,7 @@ if (son1>son3) {
 }
 
 // Berilgan baho (0 dan 100 gacha) uchun quyidagi qoidalar asosida natijani chiqaring:
-let grade = promt("Bahoni kiriting: ");
+let grade = +promt("Bahoni kiriting: ");
 if (grade>=90) {
     console.log("A'lo");
 } else if (grade>=70) {
@@ -144,7 +144,7 @@ if (grade>=90) {
 }
 
 // Ishchining ishlagan soatlari berilgan. Agar soat 40 dan ko'p bo‘lsa, "Qo‘shimcha ish soati" deb chiqaring, aks holda "Oddiy ish soati" deb chiqaring.
-let ishSoat = prompt("Ish soatini kiriting: ");
+let ishSoat = +prompt("Ish soatini kiriting: ");
 if (ishSoat>40) {
     console.log("Qo'shimcha ish soati");
 } else{
