@@ -64,7 +64,7 @@ let randomNum5 = Math.floor(Math.random() * 10)+1;
 console.log(randomNum5);
 
 //  18. 50 dan 100 gacha bo’lgan tasodifiy butun son toping.
-let randomNum6 = Math.floor(Math.random() * 100)+50;
+let randomNum6 = Math.floor(Math.random() * 50)+50;
 console.log(randomNum6);
 
 //  19. Tasodifiy sonni 3 ga ko’paytirib natijasini chiqaring.
